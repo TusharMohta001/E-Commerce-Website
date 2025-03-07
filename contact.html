@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!----------- header ------------>
+    <header>
+        <h1>Exclusive</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="./Pages/register.html" id="signmenu">Signup</a></li>
+                <li><a href="logOut.html" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <div class="search-input">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div class="cart-list">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <div class="user-profile" id="user-profile">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!----------- contact section ------------>
+<div class="contact-section" style="margin-top: 150px;">
+    <h2>Get in Touch</h2>
+    <p>Have any questions or need further assistance? Feel free to reach out to us.</p>
+    <div class="contact-info">
+        <div class="address">
+            <h3>Address</h3>
+            <p>123 Random Street, Random City, Random State, 12345</p>
+        </div>
+        <div class="phone">
+            <h3>Phone</h3>
+            <p>+91 482903483</p>
+        </div>
+        <div class="email">
+            <h3>Email</h3>
+            <p><a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+    </div>
+    <form action="/contact" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+
+<!----------- footer ------------>
+<div id="footer">
+    <div class="footer-content">
+        <h3>About Us</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi commodi accusantium assumenda!</p>
+    </div>
+   <div class="footer-content">
+        <h3>Contact Us</h3>
+        <p>Mohta Chowk, Bikaner, Raj, 334001</p>
+        <p>Phone: +91 8230487987</p>
+        <p>Email: <a href="">info@example.com</a></p>
+    </div>
+    <div class="footer-content">
+        <p>&copy; 2025 Tushar Mohta. All rights reserved.</p>
+    </div>
+</div>
+
+
+<script src="/scripts/register.js"></script>
+</body>
+</html>
